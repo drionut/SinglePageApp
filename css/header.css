@@ -14,12 +14,14 @@ nav {
   margin: auto;
 }
 
-.logo span {
+.logo span,
+.small_logo span {
   color: #d6aa94;
   font-family: "Dosis", sans-serif;
   font-weight: 300;
 }
-.logo {
+.logo,
+.small_logo {
   float: left;
   color: #ee4d4d;
   font-family: "Dosis", sans-serif;
@@ -27,10 +29,9 @@ nav {
   top: 0;
   padding: 0;
   margin: 0;
-  transition: color 0.3 ease;
 }
-.logo:hover {
-  color: #ee4d4d;
+.small_logo {
+  display: none;
 }
 .nav-links {
   float: right;
