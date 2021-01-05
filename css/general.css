@@ -1,9 +1,13 @@
 /* GENERAL STYLE */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 16px;
 }
 .centered {
@@ -12,3 +16,19 @@ body {
   align-items: center;
 }
 /* ----------------------- */
+
+/* Responsive conditions */
+@media only screen and (max-width: 768px) {
+  .timeline-detail {
+    display: none;
+  }
+  .timeline {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav,
+  .content {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.content {
+  display: block;
+  width: 75%;
+  margin: 60px auto;
+  clear: both;
+}
+.timeline {
+  width: 60%;
+  float: left;
+}
+
+.timeline-detail {
+  width: 40%;
+  float: right;
+}

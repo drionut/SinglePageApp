@@ -1,11 +1,16 @@
 header {
+  position: fixed;
+  width: 100%;
   background-color: #2b2e48;
-  height: 35px;
   padding: 10px;
+  top: 0;
+  left: 0;
 }
 nav {
+  position: relative;
   display: block;
   width: 75%;
+  height: 35px;
   margin: auto;
 }
 
@@ -42,6 +47,7 @@ nav {
   padding: 5px 15px;
   display: inline-block;
   position: relative;
+  margin: 0 5px;
 }
 
 .nav-link:hover {
