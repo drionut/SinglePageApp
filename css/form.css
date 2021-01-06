@@ -1,6 +1,7 @@
 /* FORM STYLE */
 .register-form {
-  margin: 90px auto;
+  margin: auto;
+  margin-top: 200px;
   height: 100%;
   width: 320px;
   background-color: white;

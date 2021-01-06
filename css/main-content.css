@@ -1,12 +1,17 @@
 .content {
-  display: block;
+  /* display: block; */
+  position: relative;
+  min-height: 90vh;
   width: 75%;
-  margin: 60px auto;
-  clear: both;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 1;
 }
 .timeline {
   width: 60%;
   float: left;
+  position: relative;
+  margin: 0 10px;
 }
 
 .timeline-detail {

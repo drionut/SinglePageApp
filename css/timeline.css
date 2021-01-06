@@ -1,0 +1,11 @@
+.timeline-item {
+  display: block;
+  clear: both;
+}
+
+.timeline-content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 6px 4px -2px #e0e0e0;
+}
