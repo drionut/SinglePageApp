@@ -44,9 +44,10 @@
 
 .timeline-content {
   background-color: white;
+  color: #726f77;
   padding: 10px;
   border-radius: 2px;
-  box-shadow: 1px 6px 4px -2px #e0e0e0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .timeline .timeline-item:nth-child(even) {
   float: right;
