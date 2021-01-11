@@ -9,7 +9,6 @@ body {
   padding: 0;
   font-family: "Dosis", sans-serif;
   font-size: 16px;
-  min-height: 100vh;
 }
 .centered {
   display: flex;
@@ -20,11 +19,8 @@ body {
 
 /* Responsive conditions */
 @media only screen and (max-width: 768px) {
-  .timeline-detail {
-    display: none;
-  }
   .timeline {
-    width: 100%;
+    width: 95%;
   }
 }
 @media only screen and (max-width: 600px) {

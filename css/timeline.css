@@ -1,6 +1,30 @@
+.timeline::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 110%;
+  background-color: #ee4d4d;
+  left: 50%;
+  top: 0;
+}
+.right {
+  float: right;
+}
+
+.timeline-title {
+  background-color: #ee4d4d;
+  color: white;
+  font-size: 1.2em;
+  margin: -10px;
+  padding: 5px;
+  font-weight: 300;
+}
+
 .timeline-item {
   display: block;
   clear: both;
+  margin-bottom: 50px;
+  width: 49%;
 }
 
 .timeline-content {
@@ -8,4 +32,7 @@
   padding: 10px;
   border-radius: 2px;
   box-shadow: 1px 6px 4px -2px #e0e0e0;
+}
+.timeline .timeline-item:nth-child(even) {
+  float: right;
 }

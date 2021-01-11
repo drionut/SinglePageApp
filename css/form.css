@@ -1,7 +1,7 @@
 /* FORM STYLE */
-.register-form {
+.contact-form {
   margin: auto;
-  /* margin-top: 200px; */
+  margin-top: 50px;
   height: 100%;
   width: 320px;
   background-color: white;
@@ -9,10 +9,10 @@
   border-radius: 2px;
   box-shadow: 1px 6px 4px -2px #e0e0e0;
 }
-.register-form h2 {
+.contact-form h2 {
   margin: 0;
 }
-.register-form input[type="text"],
+.contact-form input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
@@ -23,7 +23,7 @@ textarea {
   border-radius: 5px;
   box-sizing: border-box;
 }
-.register-form button {
+.contact-form button {
   cursor: pointer;
   color: #ee4d4d;
 }
