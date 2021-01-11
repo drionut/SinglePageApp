@@ -22,6 +22,9 @@ body {
   .timeline {
     width: 95%;
   }
+  .timeline-date {
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   nav,

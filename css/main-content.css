@@ -15,10 +15,5 @@
   font-size: 2em;
   font-weight: 500;
   color: #726f77;
-}
-.timeline {
-  width: 100%;
-  /* float: left; */
-  position: relative;
-  margin: 0 10px;
+  margin: 20px 0 50px 0;
 }
