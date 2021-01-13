@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #f9f9f9;
+  /* background-color: white; */
+  background-color: #06090f;
   margin: 0;
   padding: 0;
   font-family: "Dosis", sans-serif;
@@ -19,8 +20,13 @@ body {
 
 /* Responsive conditions */
 @media only screen and (max-width: 768px) {
-  .timeline {
+  .timeline,
+  .contact-form {
     width: 95%;
+  }
+  .contact-form {
+    width: 80%;
+    margin: 50px auto;
   }
   .timeline-date {
     display: none;
