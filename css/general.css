@@ -20,8 +20,13 @@ body {
 
 /* Responsive conditions */
 @media only screen and (max-width: 768px) {
-  .timeline {
+  .timeline,
+  .contact-form {
     width: 95%;
+  }
+  .contact-form {
+    width: 80%;
+    margin: 50px auto;
   }
   .timeline-date {
     display: none;
