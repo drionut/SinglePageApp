@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .content,
 .timeline,
 nav {
@@ -13,4 +17,12 @@ header {
 
 .fade-in {
 	opacity: 1;
+}
+
+.active {
+	box-shadow: none;
+	top: 2px;
+	left: 2px;
+	background-color: #d6aa94;
+	color: #06090f;
 }
