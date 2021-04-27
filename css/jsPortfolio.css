@@ -1,0 +1,16 @@
+.content,
+.timeline,
+nav {
+	/* display: none; */
+	opacity: 0;
+	transition: opacity 900ms;
+}
+
+header {
+	height: 55px;
+	width: 1vw;
+}
+
+.fade-in {
+	opacity: 1;
+}
