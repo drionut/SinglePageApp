@@ -29,8 +29,8 @@
 				<h1 class="small_logo">dr<span>IONUT</span></h1>
 			</a>
 			<section class="nav-links">
-				<a href="#projects" class="nav-link">Projects</a>
-				<a href="#content" class="nav-link active">Timeline</a>
+				<a href="#slideshow" class="nav-link active">Projects</a>
+				<a href="#content" class="nav-link">Timeline</a>
 				<a href="#github" class="nav-link">GitHub</a>
 				<a class="nav-link" target="_blank"
 					href="https://www.linkedin.com/in/ionut-dragan-b722471ba/">LinkedIn</a>
@@ -40,6 +40,40 @@
 	</header>
 
 	<main>
+
+		<!-- slideshow section -->
+		<div id="slideshow">
+			<div class="slide fade">
+				<img src="./img/slideshow/slide_one.jpg" alt="" class="slideshowImg">
+				<div class="caption">1</div>
+			</div>
+			<div class="slide fade">
+				<img src="./img/slideshow/slide_two.jpg" alt="" class="slideshowImg">
+				<div class="caption">2</div>
+			</div>
+			<div class="slide fade">
+				<img src="./img/slideshow/slide_three.jpg" alt="" class="slideshowImg">
+				<div class="caption">3</div>
+			</div>
+			<div class="slide fade">
+				<img src="./img/slideshow/slide_four.jpg" alt="" class="slideshowImg">
+				<div class="caption">4</div>
+			</div>
+
+			<!-- previous and next -->
+			<a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+			<a class="next" onclick='changeSlide(1)'>&#10095;</a>
+		</div>
+
+		<!-- dots -->
+		<div id="dots">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+		</div>
+		<!-- END Slideshow -->
+
 		<div class="content" id="content">
 			<h1>Portfolio Timeline</h1>
 
@@ -209,7 +243,7 @@
 
 	<footer class="centered">
 		<section class="footer-links">
-			<a class="nav-link" href="#content">Go Up</a>
+			<a class="nav-link" href="#slideshows">Go Up</a>
 			<a class="nav-link" target="_blank" href="#github">GitHub</a>
 			<a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ionut-dragan-b722471ba/">LinkedIn</a>
 		</section>
