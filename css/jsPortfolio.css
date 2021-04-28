@@ -201,7 +201,7 @@ header {
 /* contact section */
 #contact-section {
 	display: none;
-	padding-top: 200px;
+	padding-top: 20px;
 	position: fixed;
 	z-index: 2;
 	background-color: rgba(6, 9, 15, 0.95);
@@ -210,7 +210,7 @@ header {
 }
 
 .contact-form {
-	height: 50%;
+	height: 80%;
 }
 
 /* The Close Button */
@@ -218,7 +218,7 @@ header {
 	/* position: absolute; */
 	color: #aaaaaa;
 	float: right;
-	margin: -100px 200px 0 0;
+	margin: 0 200px 0 0;
 	font-size: 48px;
 }
 
@@ -227,4 +227,52 @@ header {
 	color: #ee4d4d;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+/* updated responsive stuff */
+
+@media only screen and (max-width: 410px) {
+	#slideshow *,
+	#dots *,
+	#project-link,
+	#overview {
+		display: none;
+	}
+	.content {
+		margin-top: -200px;
+	}
+	/* #contact-section {
+		padding-top: 0;
+	} */
+	#timeline-hr {
+		margin-top: 0;
+	}
+	/* .contact-form {
+		height: 70%;
+	} */
+}
+
+@media only screen and (max-width: 600px) {
+	#slideshow {
+		width: 90vw;
+	}
+
+	#overview {
+		display: none;
+	}
+	#contact-section {
+		padding-top: 0;
+	}
+	.contact-form {
+		height: 70%;
+	}
+}
+
+@media only screen and (max-width: 936px) {
+	#overview {
+		display: none;
+	}
+	.close {
+		margin: 0 50px 0 0;
+	}
 }
