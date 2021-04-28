@@ -2,12 +2,23 @@ html {
 	scroll-behavior: smooth;
 }
 
+/* gradient bg */
+body {
+	background-image: linear-gradient(#fff, #06090f);
+}
+
 .content,
 .timeline,
 nav {
 	/* display: none; */
+	/* transition from display:none > display: block not possible */
+	/* w/o  */
 	opacity: 0;
 	transition: opacity 900ms;
+}
+
+#timeline-title {
+	color: #2b2e48;
 }
 
 header {
@@ -29,10 +40,11 @@ header {
 }
 
 /* slideshow */
-#slideshow {
-	width: 50vw;
+#slideshow,
+#dots {
+	width: 40vw;
 	height: auto;
-	padding-top: 5%;
+	padding-top: 65px;
 	position: relative;
 	margin: auto;
 	display: none;
@@ -41,7 +53,7 @@ header {
 .slideshowImg {
 	height: auto;
 	width: 100%;
-	box-shadow: 0 0px 0px 0 #e0e0e0, 0 5px 25px 0 #e0e0e0;
+	box-shadow: 0 0px 0px 0 #06090f, 0 5px 25px 0 #06090f;
 	border: 1px solid #30363d;
 }
 .previous,
@@ -69,16 +81,37 @@ header {
 }
 
 .caption {
-	color: black;
-	padding: 5px;
+	color: whitesmoke;
+	padding: 7px;
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
 	width: 100%;
 	text-align: center;
-	font-size: 1.2 vw;
+	/* font-size: 1.2vw; */
 	font-weight: bold;
-	background-color: whitesmoke;
+	background-color: rgba(46, 49, 49, 0.8);
 	transition: background-color 0.6s ease;
+}
+
+/* The dots/bullets/indicators */
+#dots {
+	text-align: center;
+	padding: 20px 0;
+}
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active-dot,
+.dot:hover {
+	background-color: #717171;
 }
 
 .fade {
@@ -94,3 +127,4 @@ header {
 		opacity: 1;
 	}
 }
+/* END Slideshow */

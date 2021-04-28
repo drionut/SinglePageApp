@@ -44,38 +44,41 @@
 		<!-- slideshow section -->
 		<div id="slideshow">
 			<div class="slide fade">
-				<img src="./img/slideshow/slide_one.jpg" alt="" class="slideshowImg">
-				<div class="caption">1</div>
+				<img src="./img/slideshow/calculator.png" alt="" class="slideshowImg">
+				<div class="caption">Simple HTML/CSS/Javascript calculator</div>
 			</div>
 			<div class="slide fade">
-				<img src="./img/slideshow/slide_two.jpg" alt="" class="slideshowImg">
-				<div class="caption">2</div>
+				<img src="./img/slideshow/pizza.png" alt="" class="slideshowImg">
+				<div class="caption">Pizza Hut-like web application</div>
 			</div>
 			<div class="slide fade">
-				<img src="./img/slideshow/slide_three.jpg" alt="" class="slideshowImg">
-				<div class="caption">3</div>
+				<img src="./img/slideshow/Tic Tac Toe.png" alt="" class="slideshowImg">
+				<div class="caption">Play tic-tac-toe against javascript</div>
 			</div>
 			<div class="slide fade">
-				<img src="./img/slideshow/slide_four.jpg" alt="" class="slideshowImg">
-				<div class="caption">4</div>
+				<img src="./img/slideshow/contact.jpg" alt="" class="slideshowImg">
+				<div class="caption">
+					<a class="nav-link" href="#contact">Inbox Me!</a>
+				</div>
 			</div>
 
 			<!-- previous and next -->
 			<a class="previous" onclick="changeSlide(-1)">&#10094;</a>
 			<a class="next" onclick='changeSlide(1)'>&#10095;</a>
 		</div>
-
 		<!-- dots -->
 		<div id="dots">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
+			<span class="dot" onclick="currentSlide(1)"></span></span>
+			<span class="dot" onclick="currentSlide(2)"></span></span>
+			<span class="dot" onclick="currentSlide(3)"></span></span>
+			<span class="dot" onclick="currentSlide(4)"></span></span>
 		</div>
+
 		<!-- END Slideshow -->
 
 		<div class="content" id="content">
-			<h1>Portfolio Timeline</h1>
+			<hr />
+			<h1 id="timeline_title">Portfolio Timeline</h1>
 
 			<section class="timeline" id="timeline">
 				<!-- NEW Item Javascript Card -->
@@ -243,7 +246,7 @@
 
 	<footer class="centered">
 		<section class="footer-links">
-			<a class="nav-link" href="#slideshows">Go Up</a>
+			<a class="nav-link" href="#slideshow">Go Up</a>
 			<a class="nav-link" target="_blank" href="#github">GitHub</a>
 			<a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ionut-dragan-b722471ba/">LinkedIn</a>
 		</section>
