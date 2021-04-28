@@ -30,12 +30,31 @@
 			</a>
 			<section class="nav-links">
 				<a href="#slideshow" class="nav-link active">Projects</a>
-				<a href="#content" class="nav-link">Timeline</a>
-				<a href="#github" class="nav-link">GitHub</a>
-				<a class="nav-link" href="./contact.html">Contact</a>
+				<a href="#content" class="nav-link">GitHub</a>
+				<a href="#timeline-hr" class="nav-link">Timeline</a>
+				<a href="#" class="nav-link" id="contactBtn" onclick="openContact()">Contact</a>
 			</section>
 		</nav>
 	</header>
+
+	<!-- contact modal -->
+	<div id="contact-section">
+		<span class="close" onclick="closeContact()">&times;</span>
+		<section class="contact-form">
+			<h2 class="centered">Contact Form</h2>
+			<form action="https://formspree.io/f/xzbkypjn" method="POST">
+				<input type="text" name="First Name" placeholder="First Name" required />
+				<input type="text" name="Last Name" placeholder="Last Name" required />
+				<input type="email" name="E-mail" placeholder="Your Email" required />
+				<textarea name="message" placeholder="...type your message.." required></textarea>
+				<div class="centered">
+					<button class="nav-link">Submit your message</button>
+				</div>
+			</form>
+		</section>
+	</div>
+
+	<!-- END contact modal -->
 
 	<main>
 
@@ -56,7 +75,7 @@
 			<div class="slide fade">
 				<img src="./img/slideshow/contact.jpg" alt="" class="slideshowImg">
 				<div class="caption">
-					<a class="nav-link" href="#contact">Inbox Me!</a>
+					<a class="nav-link" href="#contact" onclick="openContact()">Inbox Me!</a>
 				</div>
 			</div>
 
@@ -74,8 +93,25 @@
 
 		<!-- END Slideshow -->
 
+
 		<div class="content" id="content">
-			<hr />
+			<hr>
+			<!-- github -->
+			<div id="github" class="centered">
+				<div id="profile">
+					<img src="./img/github-logo.png" alt="">
+					<a href="https://github.com/drionut?tab=repositories" target="_blank">View Profile</a>
+				</div>
+				<div id="overview">
+					<div id="img-container">
+						<img src="./img/github-contribution .png" alt="">
+					</div>
+					<a href="https://github.com/drionut?tab=overview" target="_blank">Show more activity</a>
+				</div>
+			</div>
+			<!-- END github -->
+
+			<hr id="timeline-hr" />
 			<h1 id="timeline_title">Portfolio Timeline</h1>
 
 			<section class="timeline" id="timeline">
@@ -239,18 +275,6 @@
 			</section>
 		</div>
 
-		<div id="github" class="centered">
-			<div id="profile">
-				<img src="./img/github-logo.png" alt="">
-				<a href="https://github.com/drionut?tab=repositories" target="_blank">View Profile</a>
-			</div>
-			<div id="overview">
-				<div id="img-container">
-					<img src="./img/github-contribution .png" alt="">
-				</div>
-				<a href="https://github.com/drionut?tab=overview" target="_blank">Show more activity</a>
-			</div>
-		</div>
 	</main>
 
 	<footer class="centered">

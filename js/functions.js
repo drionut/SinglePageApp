@@ -79,3 +79,20 @@ function showSlides(n) {
 	dots.style.display = "block";
 	dot[slideIndex - 1].classList.add("active-dot");
 }
+
+// contact form
+var modal = document.getElementById("contact-section");
+
+window.onclick = function (event) {
+	if (event.target == modal) {
+		closeContact();
+	}
+};
+
+function closeContact() {
+	modal.style.display = "none";
+}
+
+function openContact() {
+	modal.style.display = "block";
+}

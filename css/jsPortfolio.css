@@ -44,7 +44,7 @@ header {
 #dots {
 	width: 40vw;
 	height: auto;
-	padding-top: 75px;
+	padding-top: 125px;
 	position: relative;
 	margin: auto;
 	display: none;
@@ -190,4 +190,41 @@ header {
 	padding: 20px;
 	border: 1px solid #444c56;
 	border-radius: 4px;
+}
+
+/*  */
+#timeline-hr {
+	margin-top: 275px;
+	margin-bottom: 70px;
+}
+
+/* contact section */
+#contact-section {
+	display: none;
+	padding-top: 200px;
+	position: fixed;
+	z-index: 2;
+	background-color: rgba(6, 9, 15, 0.95);
+	width: 100%;
+	height: 100vh;
+}
+
+.contact-form {
+	height: 50%;
+}
+
+/* The Close Button */
+.close {
+	/* position: absolute; */
+	color: #aaaaaa;
+	float: right;
+	margin: -100px 200px 0 0;
+	font-size: 48px;
+}
+
+.close:hover,
+.close:focus {
+	color: #ee4d4d;
+	text-decoration: none;
+	cursor: pointer;
 }
